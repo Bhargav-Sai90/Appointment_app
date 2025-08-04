@@ -1,0 +1,104 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.card {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-width: 0px;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  padding: 20px;
+  width: 100%;
+}
+
+.content-display {
+  width: 100%;
+}
+
+.heading {
+  color: #171f46;
+  font-size: 30px;
+}
+
+.input-field {
+  width: 50%;
+}
+
+.label {
+  color: #b5b7c4;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.input {
+  border: 2px solid #b5b7c4;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+  width: 100%;
+}
+
+.btn {
+  color: #ffffff;
+  padding: 10px;
+  background-color: #8b5cf6;
+  border-radius: 10px;
+  border-width: 0px;
+}
+
+.appointments-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sub-heading {
+  color: #171f46;
+  font-size: 20px;
+}
+
+.filter-btn {
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #9897f0;
+}
+
+.filter-filled {
+  background: #9897f0;
+  color: #ffffff;
+}
+
+.filter-empty {
+  background: #ffffff;
+  color: #9897f0;
+}
+
+.appointments {
+  display: flex;
+  flex-wrap: wrap;
+}
